@@ -1,0 +1,129 @@
+*{
+    font-family: 'Courier New';
+}
+h1,h3{
+    color:#b92b27;
+}
+#login{
+    background-color: white;
+}
+#signup{
+    background-color: #b92b27;
+    color:white;
+}
+.upvote{
+    background-color: green;
+    color:aliceblue;
+}
+
+/* Desendent Selcetor 
+p a {
+    background-color: yellow;
+    color: hotpink;
+}
+*/
+
+.post a{               /* "post" is a class that we have created in html file to access only particular anchor tag, else any anchor tag
+                        that comes under paragraph tag will also be the part of property,and class attributes is denoted by "." in css*/
+    background-color: yellow;
+    color: purple;
+}
+
+/*We can put multiple levels of tags */
+
+nav ul li a {
+    color: hotpink;
+}
+
+/* Adjacent Sibling Combinator. Just adjacent tag to the main tag is given the attribute*/
+
+p + h3{
+    text-decoration: none;
+}
+
+.upvote + button {
+    background-color: cornflowerblue;
+    color: darkblue;
+}
+
+/*Child Combinator, we can just use one level greater than the parent or the bigger tag but in desencder we can put multiple tags at the same time!*/
+
+
+div > input {
+    background-color: darkorange;
+}
+
+
+/* Attribute selector*/
+
+input[type = "text"] {
+    color:green;
+}
+
+input[type = "password"] {
+    color:red;
+}
+
+input[type] {
+    background-color: ghostwhite;
+}
+
+/*#myid p{
+    color:green;
+} 
+ OR*/
+ div[id = "Myid"] p {
+    color:green
+}
+
+/*Pseudo Classes*/
+
+h3:hover{
+    text-decoration: underline;
+}
+
+button:hover{
+    background-color: black;
+    color: orange;
+}
+
+
+
+button:active{
+    background-color: hotpink;
+    color:black;
+}
+
+p:active{
+    font-weight: bold;
+    color: green;
+}
+
+input[type = "radio"]:checked + label{
+    font-weight:bold;
+    color: red;
+}
+
+div:nth-of-type(3n) {
+    background-color: blanchedalmond;
+}
+
+p::first-line{
+    color: blue;
+}
+
+h1::first-letter{
+    color: black;
+}
+
+p::selection{
+    color: yellow;
+}
+h3{
+    background-color: antiquewhite !important;
+}
+
+h3{
+    background-color: blue;
+}
+

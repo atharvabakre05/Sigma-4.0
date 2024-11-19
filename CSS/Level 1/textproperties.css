@@ -1,0 +1,29 @@
+h1{
+    /*Text align. The alignment is done according to its parent element that is the space/width here would determine its alignment */
+    text-align: center;
+    width: 100%;
+    text-decoration: red wavy  underline;
+    letter-spacing: 5px;
+    font-weight: 900;
+    font-size: 50px;
+    
+ 
+}
+p{
+    font-weight: 100;
+    line-height: 2.5;
+    font-size: 15px;
+    font-family: "Gotham", sans-serif;
+}
+h2{
+    text-decoration: yellow double underline;
+    font-family: impact;
+}
+h3 {
+    text-align: center;
+    text-decoration:grey line-through;
+    font-family: "papyrus", fantasy;
+}
+a {
+    text-decoration:none;
+}
