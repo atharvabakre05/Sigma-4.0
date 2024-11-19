@@ -1,0 +1,10 @@
+div{
+    background-color: green;
+    height: 200px;
+    width: 350px;
+    border: 2px solid black;
+    margin: 5px;
+    display: inline-block;
+
+}
+
