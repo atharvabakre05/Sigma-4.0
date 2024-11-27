@@ -32,3 +32,10 @@ h1 {
         background-color: hotpink;
     }
 }
+
+@media (orientation: landscape) {
+    h1{
+        background-color: aqua;
+        color: brown;
+    }
+}
