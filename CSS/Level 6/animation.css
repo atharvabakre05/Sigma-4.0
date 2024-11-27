@@ -1,0 +1,85 @@
+.box {
+    background-color: pink;
+    width: 300px;
+    height: 150px;
+    /* animation-name: myfirstanimation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: 3;
+    animation-direction: alternate-reverse;
+    text-align: center; */
+
+    /* animation-name: coloranimation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: 3;
+    animation-direction: alternate-reverse; */
+
+    /* animation-name: widthanimation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: 3;
+    animation-direction: alternate-reverse; */
+
+    /* animation: widthanimation 3s ease-in 0s 3 alternate-reverse; */
+
+    animation: colanime 5s ease-in 0s infinite alternate-reverse;
+}
+}
+
+@keyframes myfirstanimation {
+    from {
+        font-size: 20px;
+        
+    }
+    to {
+        font-size: 50px;
+    }
+}
+
+@keyframes coloranimation {
+    from {
+        background-color: blue;
+    }
+    to {
+        background-color: darkgoldenrod;
+    }
+}
+
+@keyframes widthanimation {
+    from {
+        width: 5px;
+        font-size: 20px;
+        background-color: blue;
+        
+    }
+
+    to {
+        width: 300px;
+        font-size: 50px;
+        background-color: darkgoldenrod;
+    }
+}
+@keyframes colanime{
+    0%{
+        background-color: darkgreen;
+    }
+    20%{
+        background-color: violet;
+    }
+    40%{
+        background-color: red;
+    }
+    60%{
+        background-color: darkgreen;
+    }
+    80%{
+        background-color: hotpink;
+    }
+    100%{
+        background-color: indigo;
+    }
+}
