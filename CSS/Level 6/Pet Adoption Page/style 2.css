@@ -1,0 +1,37 @@
+h2{
+    color: maroon;
+}
+#pet{
+    color: brown
+}
+
+img{
+    height: 200px;
+    width: 400px;
+    padding-top: 10px;
+    border-radius: 25px;
+}
+
+#pets{
+    text-align: center;
+}
+
+
+.card{
+    width: 400px;
+    display: inline-block;
+    border: 2px solid black;
+    margin: 80px;
+    border-radius: 25px;    
+}
+h3{
+    text-align: left;
+    padding-right: 2px;
+    margin: 5px;
+}
+
+p{
+    text-align: left;
+    margin: 5px;
+
+}
