@@ -30,19 +30,21 @@
 // console.log("We break at 3");
 
 
+
 //Break keyword implementation in the game
-const favMovie = "The Avengers";
 
-let guess = prompt("Guess my Favourite Movie");
 
-while(guess != favMovie){
-    guess = prompt("Guess again!");
+// const favMovie = "The Avengers";
+// let guess = prompt("Guess my Favorite movie");
+// while(guess=favMovie) {
+//     guess=prompt("Please guess again");
+//     if(guess=="Quit") {
+//         console.log("You Quit");
+//         break;
+//     }
+// }
 
-    if(guess == "quit") {
-        console.log("You quit");
-        break;
-    }
-}
-if(guess == favMovie) {
-    console.log("Kudos! You guessed it right");
-    }
+// if(guess == favMovie) {
+//     console.log("Kudos! You guessed that rught");
+// } 
+

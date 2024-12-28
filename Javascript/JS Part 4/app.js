@@ -74,9 +74,25 @@
 //     i--;
 // }
 
-let i = 0;
-while(i<=20) {
-    console.log(i);
-    i++;
-}
+// let i = 0;
+// while(i<=20) {
+//     console.log(i);
+//     i++;
+// }
+
+
+//Loops with arrays
+
+// let fruits = ["mango", "orange", "chiku", "pinapple", "apple"];
+// for(let i = 0; i<fruits.length; i++) {
+//     console.log(i, fruits[i]);
+// }
+
+// //Backwards 
+// for(let i = fruits.length-1; i>=0; i--) {
+//     console.log(i, fruits[i]);
+// }
+
+
+//Nested Loops with Nested Arrays
 
