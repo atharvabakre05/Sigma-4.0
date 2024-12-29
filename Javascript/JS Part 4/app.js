@@ -94,5 +94,47 @@
 // }
 
 
-//Nested Loops with Nested Arrays
+//Nested Loops with Nested Arrays 
+//Eg1
 
+// let heroes = [["Captain America", "Thor", "Hulk"], ["Wonder Women", "Superman", "Batman"]];
+// for(i=0; i<heroes.length; i++) {
+//     console.log(i, heroes[i]);
+//     for(j=0; j<heroes[i].length;j++) {
+//         console.log(`j=${j}, ${heroes[i][j]}`);
+
+//     }
+// }
+
+//Eg 2:
+// let students = [["Atharva", 95], ["Rasika", 94.5], ["Puppa", 100], ["Mummaa", 100]]; 
+// for(i=0; i<students.length; i++) {
+//     console.log(`info of studnet #${i+1}`);
+//     for(j=0; j<students[i].length;j++) {
+//         console.log(` ${j}, ${students[i][j]}`);
+
+//     }
+
+// }
+
+//For-Of loop
+
+// let fruits = ["Mango", "Orange", "Apple", "Lichi"];
+// for(fruit of fruits) {
+//     console.log(fruit);
+// }
+
+
+// for(char of "AtharvaBakre") {
+//     console.log(char);
+// }
+
+//Nested for-of loop
+
+let heroes = [["Spiderman", "Captain America", "Ironman"], ["Superman", "Wonder Women", "Batman"]] 
+for(list of heroes) {
+    console.log(list);
+    for(hero of list) {
+        console.log(`${hero}`);
+    }
+}
