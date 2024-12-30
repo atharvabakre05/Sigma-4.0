@@ -30,7 +30,7 @@
 //     city: "Nagpur"
 // };
 
-//Objects of objects
+// Objects of objects
 // const studentInfo = {
 //     atharva: {
 //         grade: "A+",
@@ -60,24 +60,26 @@
 
 //Arrays of objects
 
-const studentInfo = [
-    {
-        name: "Atharva",
-        grade: "A++",
-        city: "Banglore"
-    },
+// const studentInfo = [
+//     {
+//         name: "Atharva",
+//         grade: "A++",
+//         city: "Banglore"
+//     },
 
-    {
-        name: "Rasika",
-        grade: "O",
-        city: "Pune"
-    },
+//     {
+//         name: "Rasika",
+//         grade: "O",
+//         city: "Pune"
+//     },
 
-    {
-        name: "Mummaa and PAPA",
-        grade: "The bestttt",
-        city: "Nagpur"
-    }
-];
+//     {
+//         name: "Mummaa and PAPA",
+//         grade: "The bestttt",
+//         city: "Nagpur"
+//     }
+// ];
+
+
 
 
