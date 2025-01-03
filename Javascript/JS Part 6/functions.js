@@ -57,12 +57,74 @@
 // console.log(d);
 
 //After using the return in the function, we cant define/make any more changes in it.
-function isAdult(age) {
-    if(age>=18) {
-        return "adult";
+// function isAdult(age) {
+//     if(age>=18) {
+//         return "adult";
+//     }
+//     else{
+//         return "not adult";
+//     }
+//     console.log("Bye Bye");
+// }
+
+//Scopes
+// let greet = "hello"; // Global scope
+
+// function changeGreet () {
+//     let greet = "namaste"; // Function Scope
+//     console.log(greet);
+
+//     function innerGreet() { //lexical Scope
+//         console.log(greet);
+//     }
+// }
+// console.log(greet);
+// changeGreet();
+
+
+//Function Expressions
+// let sum = function(a,b) {
+//     return a+b;
+// }
+
+// let hello = function() {
+//     console.log("Hello");
+// }
+
+//High Order Function
+
+// function multipleGreet(func, count) { //Higher Order function
+//     for(let i=1; i<=count; i++) {
+//         func();
+//     }
+// }
+// function greet() {
+//     console.log("Hello");
+// }
+// multipleGreet(greet, 4);
+
+//High Order Function Returns a function
+
+
+
+function oddOrEvenFactory(request) {
+    if(request == "odd") {
+        let odd = function(n) {
+            console.log(!(n%2==0));
+            
+        }
+        return odd;
+    } else if(request == "even") {
+        let even = function(n) {
+        console.log(n%2==0);
+        }
+        return even;
+    } else{
+        console.log("Wrong request");
     }
-    else{
-        return "not adult";
-    }
-    console.log("Bye Bye");
 }
+
+let request = "odd"; //even
+
+
+
