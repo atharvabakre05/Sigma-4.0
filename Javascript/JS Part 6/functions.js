@@ -105,24 +105,38 @@
 
 //High Order Function Returns a function
 
-
-
-function oddOrEvenFactory() {
-    if(request == "odd") {
-        return function (n) {
-            console.log(!(n%2==0));
-        }
+// function oddOrEvenFactory() {
+//     if(request == "odd") {
+//         return function (n) {
+//             console.log(!(n%2==0));
+//         }
         
-    }
-    else if(request == "even") {
-        return function (n) {
-            console.log(n%2 == 0);
-        }
+//     }
+//     else if(request == "even") {
+//         return function (n) {
+//             console.log(n%2 == 0);
+//         }
      
-    }
-    else{
-        console.log("Wrong Request");
-    }
-}
+//     }
+//     else{
+//         console.log("Wrong Request");
+//     }
+// }
 
-let request = "odd"; //even
+// let request = "odd"; //even
+
+//Methods in JS
+const calculator = {
+    num: 55,
+    add: function(a,b) {
+        return a + b;
+    },
+
+    sub: function(a, b) {
+        return a - b;
+    },
+
+    mul: function(a, b) {
+        return a * b;
+    }
+};
