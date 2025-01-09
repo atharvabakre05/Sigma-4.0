@@ -10,7 +10,7 @@
 //     color: ["red", "pink"]
 // };
 
-//Twitter Post
+// // Twitter Post
 
 // const post=  {
 //     username: "@atharvabakre05",
@@ -22,7 +22,7 @@
 
 // //To Get Values use "object.key"
 
-//Add/Update Value in Object literals
+// Add/Update Value in Object literals
 // const student = {
 //     name: "Atharva", 
 //     age: 19, 
@@ -58,7 +58,7 @@
 
 // }
 
-//Arrays of objects
+// Arrays of objects
 
 // const studentInfo = [
 //     {
