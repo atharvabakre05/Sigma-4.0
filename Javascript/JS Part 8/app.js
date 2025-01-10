@@ -97,4 +97,69 @@
 // let arr = [0,12,3,4,534,6,54,3,3,42434324234,4234324,245456,2,32,46,3,2];
 // Math.min(...arr);
 
-//Spread 
+//Spread with array literals
+// let even = [2,4,6,8,10];
+// let odd = [5,7,9,11,13];
+// let nums = [...odd, ...even];
+// let str = [..."Atharva"];
+// console.log(str);
+
+
+//Spread with object literals
+// const data = {
+//     email: "ironman@gmail.com",
+//     password: "abcd",
+// };
+// const dataCopy = {...data, id: 1234, county: "India"};
+
+// let arr = [2,44,55,1,9,10,11];
+// let obj1 = {...arr}; //obj1 = key: pair (Since key is not defined the key would be the index number)
+
+// let str = ("Atharva");
+// let obj2 = {...str};
+
+
+
+//Rest Concept in JS
+// function sum(...args) {      //args means arguments
+//     for(let i=0;i<args.length;i++) {
+//         console.log("This is the value that you gave us: ", args[i]);
+//     }
+// }
+
+// function min() {
+//     console.log(arguments);
+//     console.log(arguments.length);
+//     arguments.push(1); //Will not be able to apply since arguements is a collection but not an array
+// }
+
+//If we use rest we can store the values of function into an array and perform different operations on to it.
+// function sum(...args) {
+//     return args.reduce((sum,el) => sum+el);
+// }
+// function min(msg,...args) {
+//     console.log(msg);
+//     return args.reduce((min,el) => {
+//         if(min>el) {
+//             return el;
+//         } else{
+//             return min;
+//         }
+//     })
+// }
+
+//Destructuring 
+// let names = ["tony", "steve", "bruce", "peter", "xyz", "pyq", "abc"];
+// let [runnerUp, winner, ...others] = names;
+
+//Destructing in objects
+// let student = {
+//     name: "Atharva",
+//     age: 19,
+//     subject: "Coding",
+//     hobby: "Bowler",
+//     username: "atharvabakre05",
+//     password: "okok",
+// }
+
+// let {username: user, password: secret, hobby: sport, city: place = "Nagpur"} = student;
