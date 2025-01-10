@@ -65,9 +65,36 @@
 // arr.every((el) => (el%2 == 0));
 
 // Reduce Function working
-let arr = [44,66,11,23,5,78,94,101];
-let finalValue = arr.reduce((res, el) => {
-    // console.log(res);
-    return res + el;
-})
-console.log(finalValue);
+// let arr = [44,66,11,23,5,78,94,101];
+// let finalValue = arr.reduce((res, el) => {
+//     // console.log(res);
+//     return res + el;  //To print the sum of all the numbers present in the array
+// });
+// console.log(finalValue);
+
+//Finding Maximum no. using reduce function
+// let max = arr.reduce((max,el) => {
+//     if(max<el) {
+//         return el;
+//     } else {
+//         return max;
+//     }
+// });
+// console.log(max);
+
+//Default Values
+
+// function sum(a,b=3) { //Valid since the default value is appointed to "b"
+//     return a + b;
+// }
+
+// function sum(a = 3, b) { //Invalid since the default value is given to the first argument
+//     return a + b;
+// }
+
+
+//Spread Concept 
+// let arr = [0,12,3,4,534,6,54,3,3,42434324234,4234324,245456,2,32,46,3,2];
+// Math.min(...arr);
+
+//Spread 
