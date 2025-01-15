@@ -9,3 +9,17 @@
 // console.dir(document.querySelector(".oldImg"));
 // console.dir(document.querySelectorAll("div a")); //This selects all the tags that are there in the html file
 
+//Changing colors for specific tags using JS
+let links = document.querySelectorAll(".box a");
+//Using normal For loop 
+for(i=0;i<links.length;i++) {
+    links[i].style.color = "green";
+}
+
+// for (link of links) {
+//     link.style.color = "yellow";
+// }
+
+
+
+
