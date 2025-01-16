@@ -1,0 +1,10 @@
+.bg{
+    background-color: blue;
+    color: white;
+}
+
+.underline{
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    color: purple;
+}
