@@ -87,11 +87,79 @@
 // });
 
 //Keyboard Events
-let inp = document.querySelector('input');
-// inp.addEventListener('keydown', function() {
-//     console.log("A key was pressed");
+// let inp = document.querySelector('input');
+// // inp.addEventListener('keydown', function() {
+// //     console.log("A key was pressed");
+// // });
+
+// inp.addEventListener('keyup', function(event) {
+//     console.log("A key was released");
+//     // console.log(event);
+//     console.log("key = ", event.key);
+//     console.log("code = ",event.code);
 // });
 
-inp.addEventListener('keyup', function() {
-    console.log("A key was released");
+//Game
+// inp.addEventListener('keydown', function(event) {
+//     console.log("code = ", event.code);
+//     if(event.code == "ArrowUp") {
+//         console.log("Character moves forward");
+//     }
+//     else if(event.code == "ArrowDown") {
+//         console.log("Character moves backward");
+//     }
+//     else if(event.code == "ArrowLeft") {
+//         console.log("Character moves Leftside");
+//     }
+//     else if(event.code == "ArrowRight") {
+//         console.log("Character moves Rightside");
+//     }
+//     else{
+//         console.log("Wrong key");
+//     }
+
+
+// });
+
+//Form
+// let form = document.querySelector('form');
+// form.addEventListener("submit", function() {
+//     event.preventDefault(); //Helps to prevent redirecting yet the info gets submitted
+//     alert("Form Submitted");
+//     console.log("Succesfully Stayed at the default page");
+// });
+
+//Extracting form Data//
+// let form = document.querySelector('form');
+// form.addEventListener("submit", function(event) {
+//     event.preventDefault();
+
+//     // let user = this.elements[0];
+//     // let pass = this.elements[1];
+
+//     // console.log(user.value);
+//     // console.log(pass.value);
+    
+//     // alert(`Hi ${user.value} your password is set to ${pass.value}`);
+// });
+
+// let user = document.querySelector("#user");
+// user.addEventListener('change', function() {
+//     console.log("change event");
+//     console.log("final value = ", this.value);
+// });
+
+// user.addEventListener('input', function() {
+//     console.log("input event");
+//     console.log("final value = ", this.value);
+// });
+
+//Text Editor 
+let inp = document.querySelector("input");
+let p = document.querySelector("p");
+
+
+inp.addEventListener("input", function() {
+    console.log(inp.value);
+    p.innerText = inp.value;
 });
