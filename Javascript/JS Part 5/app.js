@@ -25,7 +25,7 @@
 // Add/Update Value in Object literals
 // const student = {
 //     name: "Atharva", 
-//     age: 19, 
+//     a ge: 19, 
 //     marks: 100,
 //     city: "Nagpur"
 // };
@@ -58,7 +58,7 @@
 
 // }
 
-// Arrays of objects
+// Array of objects
 
 // const studentInfo = [
 //     {

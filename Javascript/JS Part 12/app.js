@@ -1,22 +1,22 @@
-//Async function
+// Async function
 
-// async function greet() {
-//     return "hello!";
-//     throw "weak connection";
-// }
+async function greet() {
+    return "hello!";
+    throw "weak connection";
+}
 
-// greet()
-//     .then((result) => {
-//         console.log("Promise was resolved");
-//         console.log("Result was : ", result);
-//     })
+greet()
+    .then((result) => {
+        console.log("Promise was resolved");
+        console.log("Result was : ", result);
+    })
 
-//     .catch((err) => {
-//         console.log("Promise was rejected with error: ", err)
-//     });
+    .catch((err) => {
+        console.log("Promise was rejected with error: ", err)
+    });
 
 
-//Async function with awaut keyword  (It can only be used in async functions)
+//Async function with await keyword  (It can only be used in async functions)
 
 // function getNum() {
 //     return new Promise ((resolve, rejected) => {

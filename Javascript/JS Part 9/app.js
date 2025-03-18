@@ -23,3 +23,28 @@ for(i=0;i<links.length;i++) {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+let smallImg = document.getElementsByClassName("oldImg");
+for(i=0; i<smallImg.length; i++) {
+    smallImg[i].src="assets/spiderman_img.png";
+    console.log(`value of img no. ${i} is changed`);
+}
