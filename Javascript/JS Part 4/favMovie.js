@@ -1,22 +1,3 @@
-// const favMovie = "The Avengers";
-
-// let guess = prompt("Guess my favourite movie");
-
-// while ((guess!=favMovie) && (guess!= "Quit")) {
-
-//     console.log("Wrong! Please try again");
-
-//     guess = prompt("Guess again!");
-// }
-
-// if(guess == favMovie) {
-
-//     console.log("Kudos! You guesed it right!!");
-// }
-// else{
-
-//     console.log("You quit..");
-// }
 
 //break keyword
 // let i = 1;
@@ -33,18 +14,36 @@
 
 //Break keyword implementation in the game
 
-
-// const favMovie = "The Avengers";
+// const favMovie = "Avatar";
 // let guess = prompt("Guess my Favorite movie");
-// while(guess=favMovie) {
-//     guess=prompt("Please guess again");
+// while(guess!==favMovie) {
 //     if(guess=="Quit") {
 //         console.log("You Quit");
 //         break;
 //     }
+//     guess=prompt("Please guess again");
+
 // }
 
 // if(guess == favMovie) {
-//     console.log("Kudos! You guessed that rught");
+//     console.log("Kudos! You guessed that right");
 // } 
+
+
+//Normal version of the game!
+// const favMovie = "Avatar";
+// let guess = prompt("Guess my fav movie");
+
+// while (guess !== favMovie && guess !== 'Quit') {
+//     console.log("Wrong Guess! Please guess again");
+//     guess = prompt("Guess Again!");
+// }
+
+// if (guess === favMovie) {
+//     console.log("You guessed that right");
+// } else {
+//     console.log("You Quit");
+// }
+
+
 

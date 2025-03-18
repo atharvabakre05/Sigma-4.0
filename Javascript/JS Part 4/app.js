@@ -24,7 +24,7 @@
 // }
 
 // //Print all the even numbers from 2 to 10
-// console.log("Printing the even numvers from 2 to 10");
+// console.log("Printing the even numbers from 2 to 10");
 
 // for(i = 2; i<=10; i = i+2) {
 //     console.log(i);
@@ -102,7 +102,6 @@
 //     console.log(i, heroes[i]);
 //     for(j=0; j<heroes[i].length;j++) {
 //         console.log(`j=${j}, ${heroes[i][j]}`);
-
 //     }
 // }
 

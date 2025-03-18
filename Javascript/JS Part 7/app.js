@@ -14,12 +14,12 @@
 // console.log("Hello");
 // console.log("Hello");
 // // let a = 5;
-// try{
+// try{       
 //     console.log(a);
 // }
-// catch(err) {
+// catch(error) {
 //     console.log("Caught an error...a is not defined");
-//     console.log(err);
+//     console.log(error);
 // }
 // console.log("Hello2");
 // console.log("Hello2");
@@ -71,11 +71,12 @@
 
 
 //This with ArrowFunction and Normal function 
+
 const student = {
     name: "Atharva",
     age: 19,
     marks: 95,
-    prop: this, //Global Scope
+    prop: this, //Global Scope      
     getName: function () { //Normal Function
         console.log(this);
         return this.name;
@@ -94,12 +95,5 @@ const student = {
             console.log("Apna College"); //window
         }, 2000);
 
+    }
 };
-
-
-
-
-
-
-
-
