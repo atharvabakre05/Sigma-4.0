@@ -44,5 +44,6 @@ async function getColleges(country) {
     } catch (e) {
         console.log("error: ", e);
 
+        console.log
     }
 }
