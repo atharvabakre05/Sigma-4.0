@@ -1,16 +1,6 @@
-// let n = 5
-// for (let i = 0; i<=5; i++) {
-//     console.log(i);
-// }
-// console.log("bye!");  
+ const math = require("./math");
+console.log(math);
 
-// let args = process.argv;
-// for(let i=0;i<args.length;i++) {
-//     console.log("Hello to ", args[i]);
-// }
- 
-// const someValue = require("./math");
-// console.log(someValue); 
-
-math = require("./math");
-console.log(math.sum(2,3));
+console.log(math.sum(2,4));
+console.log(math.g);
+console.log(math.div(15, 3));
