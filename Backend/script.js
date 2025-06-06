@@ -8,4 +8,4 @@
 const info = require("./Fruits");
 console.log(info); 
 
-//This is a practice to node js
+//This is a practice to node js 
